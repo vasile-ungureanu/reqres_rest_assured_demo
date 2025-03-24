@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RestAssuredTemplateSuite">
+    <test name="API Tests with JIRA Mapping">
+        <groups>
+            <run>
+                <include name="JIRA-101" />
+            </run>
+        </groups>
+        <classes>
+            <class name="RestAssuredTemplateTest" />
+        </classes>
+    </test>
+</suite>
