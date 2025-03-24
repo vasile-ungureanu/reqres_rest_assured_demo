@@ -15,15 +15,20 @@ jobs:
           java-version: 17
 
       - name: Run Tests
-        run: mvn test
-        
+        run: mvn clean test
+
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install allure
+
       - name: Generate Allure Report
         run: |
           allure generate allure-results --clean -o allure-report
-          allure open -h 127.0.0.1 -p 5050
-          
+
       - name: Upload test report
         uses: actions/upload-artifact@v4
         with:
-          name: test-report
-          path: testReport/
+          name: allure-report
+          path: allure-report/
