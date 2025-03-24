@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","205","postUsersRegisterFail","Surefire suite","Mon Mar 24 19:45:15 UTC 2025","passed","Mon Mar 24 19:45:15 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","postUsersRegisterFail"
+"","447","postUsers","Surefire suite","Mon Mar 24 19:45:14 UTC 2025","passed","Mon Mar 24 19:45:14 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","postUsers"
+"","1636","getUsers","Surefire suite","Mon Mar 24 19:45:12 UTC 2025","passed","Mon Mar 24 19:45:14 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","getUsers"
+"","214","patchUsers","Surefire suite","Mon Mar 24 19:45:15 UTC 2025","passed","Mon Mar 24 19:45:15 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","patchUsers"
+"","208","putUsers","Surefire suite","Mon Mar 24 19:45:14 UTC 2025","passed","Mon Mar 24 19:45:15 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","putUsers"
+"","189","getUsersNotFound","Surefire suite","Mon Mar 24 19:45:15 UTC 2025","passed","Mon Mar 24 19:45:15 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","getUsersNotFound"
+"","187","deleteUsers","Surefire suite","Mon Mar 24 19:45:15 UTC 2025","passed","Mon Mar 24 19:45:15 UTC 2025","RestAssuredTemplateTest","Surefire test","RestAssuredTemplateTest","deleteUsers"
