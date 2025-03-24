@@ -14,14 +14,12 @@ jobs:
         with:
           java-version: 17
 
+      - name: Install Allure via NPM
+        run: |
+          npm install -g allure-commandline --save-dev
+          
       - name: Run Tests
         run: mvn clean test
-
-      - name: Install Allure CLI
-        run: |
-          sudo apt-add-repository ppa:qameta/allure -y
-          sudo apt-get update
-          sudo apt-get install allure
 
       - name: Generate Allure Report
         run: |
